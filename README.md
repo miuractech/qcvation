@@ -72,11 +72,68 @@ interface Report {
   "device_firmware_version": "2.1.0",
   "device_hardware_version": "1.5.0",
   "data": {
-    "temperature": 23.5,
-    "humidity": 65.2,
-    "timestamp": "2024-01-15T10:30:00Z",
-    "battery_level": 87
-  },
+        "result": [
+            [
+                [
+                    83,
+                    55,
+                    138
+                ],
+                [
+                    27,
+                    37,
+                    64
+                ],
+                [
+                    86,
+                    57,
+                    143
+                ]
+            ]
+        ],
+        "mean": [
+            [
+                65.33,
+                49.67,
+                115.0
+            ]
+        ],
+        "standard deviation": [
+            [
+                27.13,
+                8.99,
+                36.12
+            ]
+        ],
+        "variance": [
+            [
+                41.53,
+                18.1,
+                31.41
+            ]
+        ],
+        "max": [
+            [
+                86,
+                57,
+                143
+            ]
+        ],
+        "min": [
+            [
+                27,
+                37,
+                64
+            ]
+        ],
+        "range": [
+            [
+                59,
+                20,
+                79
+            ]
+        ]
+    },
   "created_at": "2024-01-15T10:30:15.123Z",
   "updated_at": "2024-01-15T10:30:15.123Z"
 }
@@ -110,10 +167,68 @@ Content-Type: application/json
   "device_firmware_version": "2.1.0",
   "device_hardware_version": "1.5.0",
   "data": {
-    "temperature": 23.5,
-    "humidity": 65.2,
-    "battery_level": 87
-  }
+        "result": [
+            [
+                [
+                    83,
+                    55,
+                    138
+                ],
+                [
+                    27,
+                    37,
+                    64
+                ],
+                [
+                    86,
+                    57,
+                    143
+                ]
+            ]
+        ],
+        "mean": [
+            [
+                65.33,
+                49.67,
+                115.0
+            ]
+        ],
+        "standard deviation": [
+            [
+                27.13,
+                8.99,
+                36.12
+            ]
+        ],
+        "variance": [
+            [
+                41.53,
+                18.1,
+                31.41
+            ]
+        ],
+        "max": [
+            [
+                86,
+                57,
+                143
+            ]
+        ],
+        "min": [
+            [
+                27,
+                37,
+                64
+            ]
+        ],
+        "range": [
+            [
+                59,
+                20,
+                79
+            ]
+        ]
+    }
 }
 ```
 
@@ -211,10 +326,68 @@ Content-Type: application/json
 {
   "device_firmware_version": "2.2.0",
   "data": {
-    "temperature": 24.1,
-    "humidity": 63.8,
-    "battery_level": 85
-  }
+        "result": [
+            [
+                [
+                    83,
+                    55,
+                    138
+                ],
+                [
+                    27,
+                    37,
+                    64
+                ],
+                [
+                    86,
+                    57,
+                    143
+                ]
+            ]
+        ],
+        "mean": [
+            [
+                65.33,
+                49.67,
+                115.0
+            ]
+        ],
+        "standard deviation": [
+            [
+                27.13,
+                8.99,
+                36.12
+            ]
+        ],
+        "variance": [
+            [
+                41.53,
+                18.1,
+                31.41
+            ]
+        ],
+        "max": [
+            [
+                86,
+                57,
+                143
+            ]
+        ],
+        "min": [
+            [
+                27,
+                37,
+                64
+            ]
+        ],
+        "range": [
+            [
+                59,
+                20,
+                79
+            ]
+        ]
+    }
 }
 ```
 
@@ -227,9 +400,67 @@ Content-Type: application/json
     "device_id": "TEMP_SENSOR_001",
     "device_firmware_version": "2.2.0",
     "data": {
-      "temperature": 24.1,
-      "humidity": 63.8,
-      "battery_level": 85
+        "result": [
+            [
+                [
+                    83,
+                    55,
+                    138
+                ],
+                [
+                    27,
+                    37,
+                    64
+                ],
+                [
+                    86,
+                    57,
+                    143
+                ]
+            ]
+        ],
+        "mean": [
+            [
+                65.33,
+                49.67,
+                115.0
+            ]
+        ],
+        "standard deviation": [
+            [
+                27.13,
+                8.99,
+                36.12
+            ]
+        ],
+        "variance": [
+            [
+                41.53,
+                18.1,
+                31.41
+            ]
+        ],
+        "max": [
+            [
+                86,
+                57,
+                143
+            ]
+        ],
+        "min": [
+            [
+                27,
+                37,
+                64
+            ]
+        ],
+        "range": [
+            [
+                59,
+                20,
+                79
+            ]
+        ]
     },
     "created_at": "2024-01-15T10:30:15.123Z",
     "updated_at": "2024-01-15T11:45:22.456Z"
