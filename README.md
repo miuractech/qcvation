@@ -32,10 +32,6 @@ This API provides a complete solution for managing IoT device sensor reports wit
 https://asia-south1-qcvation.cloudfunctions.net
 ```
 
-## Authentication
-
-All endpoints use Firebase Cloud Functions authentication. Ensure your Firebase project is properly configured with appropriate security rules.
-
 ## Data Model
 
 ### Report Structure
